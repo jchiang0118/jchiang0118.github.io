@@ -9,8 +9,8 @@ a {
 
     background-color: midnightblue;
 
-    padding: 7px 7px;
-    border-radius: 10px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 17px;
 }
 a:hover {
     background-color: royalblue;
@@ -97,12 +97,15 @@ nav [aria-current=page] {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.contactme-button {
+    border: 1px solid seashell;
+}
 
 
 
 .intro-project {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 .intro-project h1 {
     padding-top: 20px;
@@ -114,13 +117,12 @@ nav [aria-current=page] {
 .intro-project h3 {
     margin-top: 50px;
 }
-.introproj-button {
-    text-align: center;
-}
+
+
 
 .projects {
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 14%;
+    margin-right: 14%;
 }
 .projects h1 {
     padding-top: 80px;
@@ -156,4 +158,4 @@ nav [aria-current=page] {
 .contact-me i {
     margin-right: 5px;
     font-size: 18px;
-  }
+}
