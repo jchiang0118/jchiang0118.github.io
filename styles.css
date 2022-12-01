@@ -9,12 +9,25 @@ a {
 
     background-color: midnightblue;
 
-    padding: 10px 10px;
+    padding: 7px 7px;
     border-radius: 10px;
 }
 a:hover {
     background-color: royalblue;
 }
+h1 {
+    color: midnightblue;
+    text-align: center;
+}
+h3 {
+    color: midnightblue;
+}
+p {
+    font-family: 'Esteban', serif;
+}
+
+
+
 
 .top-nav {
     background-color: midnightblue;
@@ -40,7 +53,7 @@ nav [aria-current=page] {
     display: none;
     position: absolute;
     background-color: royalblue;
-    border: 1px solid mediumblue;
+    border: 1px solid midnightblue;
 
     margin-top: 10px;
     padding: 2px;
@@ -85,30 +98,46 @@ nav [aria-current=page] {
     margin-bottom: 30px;
 }
 
+
+
 .intro-project {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.intro-project h1 {
+    padding-top: 20px;
+}
+.intro-project ul {
+    font-family: 'Esteban', serif;
+    margin-bottom: 20px;
+}
+.intro-project h3 {
+    margin-top: 50px;
+}
+.introproj-button {
+    text-align: center;
+}
+
+.projects {
     margin-left: 170px;
     margin-right: 170px;
 }
-.intro-project h1 {
+.projects h1 {
+    padding-top: 80px;
     margin-top: 50px;
-    text-align: center;
 }
-.intro-project h3 {
+.projects h3 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
 }
-.intro-project p {
-    font-family: 'Esteban', serif;
-    margin-bottom: 30px;
-}
 .project1-img {
     float: right;
-
     margin-left: 10px;
     height: 220px;
 }
 .project2-img {
     float: left;
+    margin-right: 15px;
     height: 300px;
 }
 
@@ -128,4 +157,3 @@ nav [aria-current=page] {
     margin-right: 5px;
     font-size: 18px;
   }
-  
