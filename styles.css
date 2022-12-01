@@ -63,7 +63,7 @@ nav [aria-current=page] {
 
 
 .intro {
-    background-image: url("intro-back.png");
+    background-image: url(intro-back.png);
     background-size: cover;
     height: 500px;
 
