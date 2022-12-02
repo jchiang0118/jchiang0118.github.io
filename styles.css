@@ -31,7 +31,6 @@ p {
 
 
 
-
 .top-nav {
     background-color: midnightblue;
     
@@ -58,7 +57,7 @@ nav [aria-current=page] {
     background-color: royalblue;
     border: 1px solid midnightblue;
 
-    margin-top: 10px;
+    margin-top: 8px;
     padding: 2px;
     border-radius: 20px;
 }
@@ -74,13 +73,6 @@ nav [aria-current=page] {
 }
 .top-nav li:hover .pulldown-menu {
     display: block;
-}
-
-
-
-.page-structure {
-    margin-left: 14%;
-    margin-right: 14%;
 }
 
 
@@ -111,6 +103,12 @@ nav [aria-current=page] {
     border: 1px solid seashell;
 }
 
+
+
+.page-structure {
+    margin-left: 14%;
+    margin-right: 14%;
+}
 
 
 
