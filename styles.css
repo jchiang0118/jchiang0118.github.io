@@ -60,7 +60,7 @@ nav [aria-current=page] {
 
     margin-top: 10px;
     padding: 2px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .pulldown-menu li {
     display: block;
