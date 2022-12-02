@@ -78,6 +78,13 @@ nav [aria-current=page] {
 
 
 
+.page-structure {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+
+
 .intro {
     background-image: url(intro-back.png);
     background-size: cover;
@@ -100,16 +107,13 @@ nav [aria-current=page] {
     margin-top: 10px;
     margin-bottom: 30px;
 }
-.contactme-button {
+.contactme-butt {
     border: 1px solid seashell;
 }
 
 
 
-.intro-project {
-    margin-left: 14%;
-    margin-right: 14%;
-}
+
 .intro-project h1 {
     padding-top: 10px;
 }
@@ -123,10 +127,6 @@ nav [aria-current=page] {
 
 
 
-.projects {
-    margin-left: 14%;
-    margin-right: 14%;
-}
 .projects h3 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
@@ -148,9 +148,16 @@ nav [aria-current=page] {
     margin-left: 14%;
     margin-right: 14%;
 }
+.about-me p {
+    margin-top: 3%;
+    font-size: larger;
+}
 .jenn-img {
-    float: right;
-    height: 300px;
+    float: left;
+    height: 260px;
+    margin-right: 5%;
+    margin-top: 0;
+    border-radius: 40%;
 }
 
 
